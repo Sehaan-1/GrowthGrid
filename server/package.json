@@ -1,0 +1,32 @@
+{
+  "name": "growthgrid-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GrowthGrid API — ad-platform sync, campaigns, leads, automation alerts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "demo": "node scripts/start-demo.js",
+    "test:api": "node --import ./test/memory-harness/register.mjs test/memory-harness/smoke.mjs",
+    "seed": "node scripts/seed-demo.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.1.3",
+    "mongoose": "^8.8.0",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "mingo": "^7.2.7",
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

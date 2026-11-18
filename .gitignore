@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+*.local
+.DS_Store
+npm-debug.log*
+
+# Browser-automation artifacts (screenshots used in the README live in docs/)
+.playwright-mcp/
+
+# Locally installed agent skills (reinstall from skills-lock.json)
+.agents/
+.claude/
+agent/
+skills-lock.json
