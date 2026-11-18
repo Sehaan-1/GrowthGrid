@@ -14,8 +14,6 @@ The agency operates in India, so every amount in the product is INR.
 
 ## Screenshots
 
-Captured from the seeded demo workspace on a real sync, at 1440px wide.
-
 **Dashboard** — spend, leads and cost per lead for the trailing 14 days, the
 Google/Meta split, the latest leads and the alert feed:
 
